@@ -1,0 +1,11 @@
+训练最好次数：500
+验证最好次数：312
+train-RMSE: 1.909E-01
+ train-MAE: 1.403E-01
+   train-r:    99.799%
+valid-RMSE: 2.793E-01
+ valid-MAE: 2.096E-01
+   valid-r:    99.571%
+ test-RMSE: 2.638E-01
+  test-MAE: 1.993E-01
+    test-r:    99.610%

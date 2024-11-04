@@ -1,0 +1,566 @@
+The path of the results is all_sites\CNN_HPO_IBRH13
+Basic_3inp model is applied
+Learning rate is 0.000010
+Apply pretrain model!
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+CNN_allsites                             --
+©À©¤Sequential: 1-1                        --
+©¦    ©¸©¤Conv1d: 2-1                       (688)
+©¦    ©¸©¤ReLU: 2-2                         --
+©¦    ©¸©¤Conv1d: 2-3                       (3,616)
+©¦    ©¸©¤ReLU: 2-4                         --
+©¦    ©¸©¤Conv1d: 2-5                       (14,400)
+©¦    ©¸©¤ReLU: 2-6                         --
+©¦    ©¸©¤Flatten: 2-7                      --
+©¦    ©¸©¤Linear: 2-8                       (1,442,816)
+©¦    ©¸©¤ReLU: 2-9                         --
+©¦    ©¸©¤Linear: 2-10                      (524,800)
+©¦    ©¸©¤ReLU: 2-11                        --
+©¦    ©¸©¤Linear: 2-12                      (455,031)
+©¦    ©¸©¤ReLU: 2-13                        --
+©À©¤Sequential: 1-2                        --
+©¦    ©¸©¤Conv1d: 2-14                      (664)
+©¦    ©¸©¤ReLU: 2-15                        --
+©¦    ©¸©¤Conv1d: 2-16                      (5,264)
+©¦    ©¸©¤ReLU: 2-17                        --
+©¦    ©¸©¤Conv1d: 2-18                      (10,512)
+©¦    ©¸©¤ReLU: 2-19                        --
+©¦    ©¸©¤Flatten: 2-20                     --
+©¦    ©¸©¤Linear: 2-21                      (1,639,424)
+©¦    ©¸©¤ReLU: 2-22                        --
+©¦    ©¸©¤Linear: 2-23                      (524,800)
+©¦    ©¸©¤ReLU: 2-24                        --
+©¦    ©¸©¤Linear: 2-25                      (455,031)
+©¦    ©¸©¤ReLU: 2-26                        --
+©À©¤ModuleList: 1-3                        --
+©¦    ©¸©¤Sequential: 2-27                  --
+©¦    ©¦    ©¸©¤Linear: 3-1                  787,656
+©¦    ©¦    ©¸©¤ReLU: 3-2                    --
+©¦    ©¦    ©¸©¤Linear: 3-3                  787,656
+©¦    ©¦    ©¸©¤ReLU: 3-4                    --
+©¦    ©¦    ©¸©¤Linear: 3-5                  787,656
+©¦    ©¦    ©¸©¤ReLU: 3-6                    --
+©À©¤ModuleList: 1-4                        --
+©¦    ©¸©¤Sequential: 2-28                  --
+©¦    ©¦    ©¸©¤Linear: 3-7                  787,656
+©¦    ©¦    ©¸©¤Sigmoid: 3-8                 --
+©¦    ©¦    ©¸©¤Linear: 3-9                  787,656
+©¦    ©¦    ©¸©¤Sigmoid: 3-10                --
+©¦    ©¦    ©¸©¤Linear: 3-11                 787,656
+©¦    ©¦    ©¸©¤Sigmoid: 3-12                --
+©À©¤Sequential: 1-5                        --
+©¦    ©¸©¤Linear: 2-29                      113,664
+©¦    ©¸©¤Linear: 2-30                      16,512
+©¦    ©¸©¤Linear: 2-31                      8,514
+=================================================================
+Total params: 9,941,672
+Trainable params: 4,864,626
+Non-trainable params: 5,077,046
+=================================================================
+Epoch [1/500]	 Average training and validation loss: 6.0853E-04 5.7224E-04	Time: 3.11s
+Epoch [2/500]	 Average training and validation loss: 5.2129E-04 5.3140E-04	Time: 0.21s
+Epoch [3/500]	 Average training and validation loss: 4.9474E-04 5.1740E-04	Time: 0.21s
+Epoch [4/500]	 Average training and validation loss: 4.8275E-04 5.1032E-04	Time: 0.21s
+Epoch [5/500]	 Average training and validation loss: 4.7505E-04 5.0567E-04	Time: 0.21s
+Epoch [6/500]	 Average training and validation loss: 4.6912E-04 5.0218E-04	Time: 0.21s
+Epoch [7/500]	 Average training and validation loss: 4.6418E-04 4.9939E-04	Time: 0.21s
+Epoch [8/500]	 Average training and validation loss: 4.5987E-04 4.9710E-04	Time: 0.21s
+Epoch [9/500]	 Average training and validation loss: 4.5606E-04 4.9517E-04	Time: 0.21s
+Epoch [10/500]	 Average training and validation loss: 4.5262E-04 4.9352E-04	Time: 0.21s
+Epoch [11/500]	 Average training and validation loss: 4.4948E-04 4.9212E-04	Time: 0.21s
+Epoch [12/500]	 Average training and validation loss: 4.4657E-04 4.9091E-04	Time: 0.21s
+Epoch [13/500]	 Average training and validation loss: 4.4387E-04 4.8984E-04	Time: 0.21s
+Epoch [14/500]	 Average training and validation loss: 4.4134E-04 4.8890E-04	Time: 0.20s
+Epoch [15/500]	 Average training and validation loss: 4.3896E-04 4.8805E-04	Time: 0.21s
+Epoch [16/500]	 Average training and validation loss: 4.3671E-04 4.8730E-04	Time: 0.21s
+Epoch [17/500]	 Average training and validation loss: 4.3459E-04 4.8663E-04	Time: 0.20s
+Epoch [18/500]	 Average training and validation loss: 4.3258E-04 4.8602E-04	Time: 0.21s
+Epoch [19/500]	 Average training and validation loss: 4.3067E-04 4.8547E-04	Time: 0.21s
+Epoch [20/500]	 Average training and validation loss: 4.2885E-04 4.8495E-04	Time: 0.21s
+Epoch [21/500]	 Average training and validation loss: 4.2712E-04 4.8450E-04	Time: 0.21s
+Epoch [22/500]	 Average training and validation loss: 4.2545E-04 4.8408E-04	Time: 0.21s
+Epoch [23/500]	 Average training and validation loss: 4.2386E-04 4.8370E-04	Time: 0.21s
+Epoch [24/500]	 Average training and validation loss: 4.2231E-04 4.8335E-04	Time: 0.21s
+Epoch [25/500]	 Average training and validation loss: 4.2082E-04 4.8304E-04	Time: 0.21s
+Epoch [26/500]	 Average training and validation loss: 4.1938E-04 4.8275E-04	Time: 0.21s
+Epoch [27/500]	 Average training and validation loss: 4.1799E-04 4.8249E-04	Time: 0.21s
+Epoch [28/500]	 Average training and validation loss: 4.1665E-04 4.8225E-04	Time: 0.21s
+Epoch [29/500]	 Average training and validation loss: 4.1534E-04 4.8203E-04	Time: 0.21s
+Epoch [30/500]	 Average training and validation loss: 4.1406E-04 4.8182E-04	Time: 0.20s
+Epoch [31/500]	 Average training and validation loss: 4.1282E-04 4.8161E-04	Time: 0.21s
+Epoch [32/500]	 Average training and validation loss: 4.1161E-04 4.8144E-04	Time: 0.21s
+Epoch [33/500]	 Average training and validation loss: 4.1044E-04 4.8128E-04	Time: 0.21s
+Epoch [34/500]	 Average training and validation loss: 4.0931E-04 4.8113E-04	Time: 0.21s
+Epoch [35/500]	 Average training and validation loss: 4.0820E-04 4.8100E-04	Time: 0.20s
+Epoch [36/500]	 Average training and validation loss: 4.0712E-04 4.8087E-04	Time: 0.21s
+Epoch [37/500]	 Average training and validation loss: 4.0606E-04 4.8075E-04	Time: 0.21s
+Epoch [38/500]	 Average training and validation loss: 4.0503E-04 4.8066E-04	Time: 0.21s
+Epoch [39/500]	 Average training and validation loss: 4.0401E-04 4.8057E-04	Time: 0.20s
+Epoch [40/500]	 Average training and validation loss: 4.0301E-04 4.8048E-04	Time: 0.21s
+Epoch [41/500]	 Average training and validation loss: 4.0202E-04 4.8041E-04	Time: 0.21s
+Epoch [42/500]	 Average training and validation loss: 4.0104E-04 4.8033E-04	Time: 0.21s
+Epoch [43/500]	 Average training and validation loss: 4.0008E-04 4.8026E-04	Time: 0.21s
+Epoch [44/500]	 Average training and validation loss: 3.9913E-04 4.8021E-04	Time: 0.21s
+Epoch [45/500]	 Average training and validation loss: 3.9820E-04 4.8015E-04	Time: 0.21s
+Epoch [46/500]	 Average training and validation loss: 3.9729E-04 4.8011E-04	Time: 0.21s
+Epoch [47/500]	 Average training and validation loss: 3.9638E-04 4.8008E-04	Time: 0.21s
+Epoch [48/500]	 Average training and validation loss: 3.9549E-04 4.8005E-04	Time: 0.21s
+Epoch [49/500]	 Average training and validation loss: 3.9461E-04 4.8002E-04	Time: 0.21s
+Epoch [50/500]	 Average training and validation loss: 3.9374E-04 4.8000E-04	Time: 0.21s
+Epoch [51/500]	 Average training and validation loss: 3.9288E-04 4.8000E-04	Time: 0.21s
+Epoch [52/500]	 Average training and validation loss: 3.9204E-04 4.7999E-04	Time: 0.21s
+Epoch [53/500]	 Average training and validation loss: 3.9121E-04 4.7999E-04	Time: 0.20s
+Epoch [54/500]	 Average training and validation loss: 3.9039E-04 4.7998E-04	Time: 0.20s
+Epoch [55/500]	 Average training and validation loss: 3.8959E-04 4.7999E-04	Time: 0.20s
+Epoch [56/500]	 Average training and validation loss: 3.8879E-04 4.7999E-04	Time: 0.20s
+Epoch [57/500]	 Average training and validation loss: 3.8800E-04 4.8000E-04	Time: 0.20s
+Epoch [58/500]	 Average training and validation loss: 3.8723E-04 4.8001E-04	Time: 0.20s
+Epoch [59/500]	 Average training and validation loss: 3.8646E-04 4.8003E-04	Time: 0.20s
+Epoch [60/500]	 Average training and validation loss: 3.8570E-04 4.8004E-04	Time: 0.20s
+Epoch [61/500]	 Average training and validation loss: 3.8495E-04 4.8006E-04	Time: 0.20s
+Epoch [62/500]	 Average training and validation loss: 3.8421E-04 4.8008E-04	Time: 0.20s
+Epoch [63/500]	 Average training and validation loss: 3.8347E-04 4.8010E-04	Time: 0.20s
+Epoch [64/500]	 Average training and validation loss: 3.8274E-04 4.8013E-04	Time: 0.20s
+Epoch [65/500]	 Average training and validation loss: 3.8202E-04 4.8014E-04	Time: 0.20s
+Epoch [66/500]	 Average training and validation loss: 3.8131E-04 4.8017E-04	Time: 0.20s
+Epoch [67/500]	 Average training and validation loss: 3.8060E-04 4.8020E-04	Time: 0.20s
+Epoch [68/500]	 Average training and validation loss: 3.7990E-04 4.8021E-04	Time: 0.20s
+Epoch [69/500]	 Average training and validation loss: 3.7920E-04 4.8025E-04	Time: 0.21s
+Epoch [70/500]	 Average training and validation loss: 3.7851E-04 4.8027E-04	Time: 0.20s
+Epoch [71/500]	 Average training and validation loss: 3.7783E-04 4.8031E-04	Time: 0.20s
+Epoch [72/500]	 Average training and validation loss: 3.7715E-04 4.8035E-04	Time: 0.20s
+Epoch [73/500]	 Average training and validation loss: 3.7648E-04 4.8038E-04	Time: 0.20s
+Epoch [74/500]	 Average training and validation loss: 3.7582E-04 4.8041E-04	Time: 0.20s
+Epoch [75/500]	 Average training and validation loss: 3.7516E-04 4.8046E-04	Time: 0.20s
+Epoch [76/500]	 Average training and validation loss: 3.7451E-04 4.8049E-04	Time: 0.20s
+Epoch [77/500]	 Average training and validation loss: 3.7386E-04 4.8052E-04	Time: 0.20s
+Epoch [78/500]	 Average training and validation loss: 3.7322E-04 4.8057E-04	Time: 0.20s
+Epoch [79/500]	 Average training and validation loss: 3.7259E-04 4.8062E-04	Time: 0.20s
+Epoch [80/500]	 Average training and validation loss: 3.7196E-04 4.8065E-04	Time: 0.20s
+Epoch [81/500]	 Average training and validation loss: 3.7133E-04 4.8069E-04	Time: 0.20s
+Epoch [82/500]	 Average training and validation loss: 3.7072E-04 4.8075E-04	Time: 0.20s
+Epoch [83/500]	 Average training and validation loss: 3.7010E-04 4.8081E-04	Time: 0.20s
+Epoch [84/500]	 Average training and validation loss: 3.6949E-04 4.8085E-04	Time: 0.20s
+Epoch [85/500]	 Average training and validation loss: 3.6889E-04 4.8090E-04	Time: 0.20s
+Epoch [86/500]	 Average training and validation loss: 3.6829E-04 4.8096E-04	Time: 0.20s
+Epoch [87/500]	 Average training and validation loss: 3.6769E-04 4.8102E-04	Time: 0.20s
+Epoch [88/500]	 Average training and validation loss: 3.6709E-04 4.8108E-04	Time: 0.20s
+Epoch [89/500]	 Average training and validation loss: 3.6650E-04 4.8114E-04	Time: 0.20s
+Epoch [90/500]	 Average training and validation loss: 3.6591E-04 4.8120E-04	Time: 0.20s
+Epoch [91/500]	 Average training and validation loss: 3.6533E-04 4.8126E-04	Time: 0.20s
+Epoch [92/500]	 Average training and validation loss: 3.6475E-04 4.8132E-04	Time: 0.20s
+Epoch [93/500]	 Average training and validation loss: 3.6417E-04 4.8138E-04	Time: 0.20s
+Epoch [94/500]	 Average training and validation loss: 3.6360E-04 4.8144E-04	Time: 0.21s
+Epoch [95/500]	 Average training and validation loss: 3.6304E-04 4.8149E-04	Time: 0.20s
+Epoch [96/500]	 Average training and validation loss: 3.6247E-04 4.8154E-04	Time: 0.20s
+Epoch [97/500]	 Average training and validation loss: 3.6192E-04 4.8159E-04	Time: 0.20s
+Epoch [98/500]	 Average training and validation loss: 3.6135E-04 4.8163E-04	Time: 0.20s
+Epoch [99/500]	 Average training and validation loss: 3.6080E-04 4.8168E-04	Time: 0.20s
+Epoch [100/500]	 Average training and validation loss: 3.6024E-04 4.8172E-04	Time: 0.20s
+Epoch [101/500]	 Average training and validation loss: 3.5969E-04 4.8178E-04	Time: 0.20s
+Epoch [102/500]	 Average training and validation loss: 3.5915E-04 4.8183E-04	Time: 0.20s
+Epoch [103/500]	 Average training and validation loss: 3.5860E-04 4.8188E-04	Time: 0.20s
+Epoch [104/500]	 Average training and validation loss: 3.5806E-04 4.8195E-04	Time: 0.20s
+Epoch [105/500]	 Average training and validation loss: 3.5752E-04 4.8200E-04	Time: 0.20s
+Epoch [106/500]	 Average training and validation loss: 3.5698E-04 4.8207E-04	Time: 0.20s
+Epoch [107/500]	 Average training and validation loss: 3.5644E-04 4.8213E-04	Time: 0.20s
+Epoch [108/500]	 Average training and validation loss: 3.5591E-04 4.8218E-04	Time: 0.20s
+Epoch [109/500]	 Average training and validation loss: 3.5538E-04 4.8225E-04	Time: 0.20s
+Epoch [110/500]	 Average training and validation loss: 3.5485E-04 4.8232E-04	Time: 0.20s
+Epoch [111/500]	 Average training and validation loss: 3.5432E-04 4.8238E-04	Time: 0.20s
+Epoch [112/500]	 Average training and validation loss: 3.5380E-04 4.8246E-04	Time: 0.20s
+Epoch [113/500]	 Average training and validation loss: 3.5328E-04 4.8251E-04	Time: 0.20s
+Epoch [114/500]	 Average training and validation loss: 3.5276E-04 4.8258E-04	Time: 0.20s
+Epoch [115/500]	 Average training and validation loss: 3.5224E-04 4.8265E-04	Time: 0.20s
+Epoch [116/500]	 Average training and validation loss: 3.5172E-04 4.8271E-04	Time: 0.20s
+Epoch [117/500]	 Average training and validation loss: 3.5122E-04 4.8277E-04	Time: 0.20s
+Epoch [118/500]	 Average training and validation loss: 3.5071E-04 4.8284E-04	Time: 0.20s
+Epoch [119/500]	 Average training and validation loss: 3.5021E-04 4.8291E-04	Time: 0.20s
+Epoch [120/500]	 Average training and validation loss: 3.4971E-04 4.8297E-04	Time: 0.20s
+Epoch [121/500]	 Average training and validation loss: 3.4921E-04 4.8304E-04	Time: 0.20s
+Epoch [122/500]	 Average training and validation loss: 3.4872E-04 4.8311E-04	Time: 0.20s
+Epoch [123/500]	 Average training and validation loss: 3.4822E-04 4.8318E-04	Time: 0.20s
+Epoch [124/500]	 Average training and validation loss: 3.4773E-04 4.8325E-04	Time: 0.20s
+Epoch [125/500]	 Average training and validation loss: 3.4723E-04 4.8334E-04	Time: 0.20s
+Epoch [126/500]	 Average training and validation loss: 3.4675E-04 4.8342E-04	Time: 0.20s
+Epoch [127/500]	 Average training and validation loss: 3.4626E-04 4.8348E-04	Time: 0.20s
+Epoch [128/500]	 Average training and validation loss: 3.4577E-04 4.8357E-04	Time: 0.20s
+Epoch [129/500]	 Average training and validation loss: 3.4530E-04 4.8365E-04	Time: 0.20s
+Epoch [130/500]	 Average training and validation loss: 3.4481E-04 4.8373E-04	Time: 0.20s
+Epoch [131/500]	 Average training and validation loss: 3.4433E-04 4.8380E-04	Time: 0.20s
+Epoch [132/500]	 Average training and validation loss: 3.4385E-04 4.8389E-04	Time: 0.20s
+Epoch [133/500]	 Average training and validation loss: 3.4338E-04 4.8396E-04	Time: 0.20s
+Epoch [134/500]	 Average training and validation loss: 3.4290E-04 4.8406E-04	Time: 0.20s
+Epoch [135/500]	 Average training and validation loss: 3.4244E-04 4.8412E-04	Time: 0.20s
+Epoch [136/500]	 Average training and validation loss: 3.4196E-04 4.8421E-04	Time: 0.20s
+Epoch [137/500]	 Average training and validation loss: 3.4151E-04 4.8430E-04	Time: 0.20s
+Epoch [138/500]	 Average training and validation loss: 3.4103E-04 4.8439E-04	Time: 0.20s
+Epoch [139/500]	 Average training and validation loss: 3.4057E-04 4.8449E-04	Time: 0.20s
+Epoch [140/500]	 Average training and validation loss: 3.4011E-04 4.8456E-04	Time: 0.20s
+Epoch [141/500]	 Average training and validation loss: 3.3965E-04 4.8465E-04	Time: 0.20s
+Epoch [142/500]	 Average training and validation loss: 3.3919E-04 4.8475E-04	Time: 0.20s
+Epoch [143/500]	 Average training and validation loss: 3.3874E-04 4.8483E-04	Time: 0.20s
+Epoch [144/500]	 Average training and validation loss: 3.3829E-04 4.8494E-04	Time: 0.20s
+Epoch [145/500]	 Average training and validation loss: 3.3784E-04 4.8503E-04	Time: 0.20s
+Epoch [146/500]	 Average training and validation loss: 3.3738E-04 4.8512E-04	Time: 0.20s
+Epoch [147/500]	 Average training and validation loss: 3.3693E-04 4.8521E-04	Time: 0.20s
+Epoch [148/500]	 Average training and validation loss: 3.3648E-04 4.8530E-04	Time: 0.20s
+Epoch [149/500]	 Average training and validation loss: 3.3604E-04 4.8538E-04	Time: 0.20s
+Epoch [150/500]	 Average training and validation loss: 3.3559E-04 4.8549E-04	Time: 0.20s
+Epoch [151/500]	 Average training and validation loss: 3.3515E-04 4.8557E-04	Time: 0.20s
+Epoch [152/500]	 Average training and validation loss: 3.3470E-04 4.8567E-04	Time: 0.20s
+Epoch [153/500]	 Average training and validation loss: 3.3426E-04 4.8573E-04	Time: 0.20s
+Epoch [154/500]	 Average training and validation loss: 3.3382E-04 4.8584E-04	Time: 0.20s
+Epoch [155/500]	 Average training and validation loss: 3.3338E-04 4.8593E-04	Time: 0.20s
+Epoch [156/500]	 Average training and validation loss: 3.3294E-04 4.8601E-04	Time: 0.20s
+Epoch [157/500]	 Average training and validation loss: 3.3251E-04 4.8612E-04	Time: 0.20s
+Epoch [158/500]	 Average training and validation loss: 3.3207E-04 4.8619E-04	Time: 0.20s
+Epoch [159/500]	 Average training and validation loss: 3.3164E-04 4.8630E-04	Time: 0.20s
+Epoch [160/500]	 Average training and validation loss: 3.3121E-04 4.8638E-04	Time: 0.20s
+Epoch [161/500]	 Average training and validation loss: 3.3078E-04 4.8646E-04	Time: 0.20s
+Epoch [162/500]	 Average training and validation loss: 3.3035E-04 4.8656E-04	Time: 0.20s
+Epoch [163/500]	 Average training and validation loss: 3.2992E-04 4.8665E-04	Time: 0.20s
+Epoch [164/500]	 Average training and validation loss: 3.2949E-04 4.8675E-04	Time: 0.20s
+Epoch [165/500]	 Average training and validation loss: 3.2907E-04 4.8684E-04	Time: 0.20s
+Epoch [166/500]	 Average training and validation loss: 3.2865E-04 4.8695E-04	Time: 0.21s
+Epoch [167/500]	 Average training and validation loss: 3.2823E-04 4.8703E-04	Time: 0.20s
+Epoch [168/500]	 Average training and validation loss: 3.2781E-04 4.8714E-04	Time: 0.20s
+Epoch [169/500]	 Average training and validation loss: 3.2739E-04 4.8721E-04	Time: 0.20s
+Epoch [170/500]	 Average training and validation loss: 3.2697E-04 4.8732E-04	Time: 0.20s
+Epoch [171/500]	 Average training and validation loss: 3.2656E-04 4.8741E-04	Time: 0.21s
+Epoch [172/500]	 Average training and validation loss: 3.2614E-04 4.8750E-04	Time: 0.20s
+Epoch [173/500]	 Average training and validation loss: 3.2572E-04 4.8759E-04	Time: 0.20s
+Epoch [174/500]	 Average training and validation loss: 3.2531E-04 4.8768E-04	Time: 0.20s
+Epoch [175/500]	 Average training and validation loss: 3.2490E-04 4.8778E-04	Time: 0.20s
+Epoch [176/500]	 Average training and validation loss: 3.2449E-04 4.8786E-04	Time: 0.20s
+Epoch [177/500]	 Average training and validation loss: 3.2408E-04 4.8796E-04	Time: 0.20s
+Epoch [178/500]	 Average training and validation loss: 3.2367E-04 4.8805E-04	Time: 0.20s
+Epoch [179/500]	 Average training and validation loss: 3.2326E-04 4.8816E-04	Time: 0.20s
+Epoch [180/500]	 Average training and validation loss: 3.2285E-04 4.8825E-04	Time: 0.20s
+Epoch [181/500]	 Average training and validation loss: 3.2245E-04 4.8835E-04	Time: 0.20s
+Epoch [182/500]	 Average training and validation loss: 3.2204E-04 4.8846E-04	Time: 0.20s
+Epoch [183/500]	 Average training and validation loss: 3.2164E-04 4.8855E-04	Time: 0.20s
+Epoch [184/500]	 Average training and validation loss: 3.2124E-04 4.8865E-04	Time: 0.20s
+Epoch [185/500]	 Average training and validation loss: 3.2084E-04 4.8873E-04	Time: 0.20s
+Epoch [186/500]	 Average training and validation loss: 3.2043E-04 4.8883E-04	Time: 0.20s
+Epoch [187/500]	 Average training and validation loss: 3.2003E-04 4.8895E-04	Time: 0.20s
+Epoch [188/500]	 Average training and validation loss: 3.1963E-04 4.8905E-04	Time: 0.20s
+Epoch [189/500]	 Average training and validation loss: 3.1923E-04 4.8915E-04	Time: 0.20s
+Epoch [190/500]	 Average training and validation loss: 3.1884E-04 4.8927E-04	Time: 0.20s
+Epoch [191/500]	 Average training and validation loss: 3.1844E-04 4.8937E-04	Time: 0.20s
+Epoch [192/500]	 Average training and validation loss: 3.1805E-04 4.8948E-04	Time: 0.20s
+Epoch [193/500]	 Average training and validation loss: 3.1766E-04 4.8958E-04	Time: 0.20s
+Epoch [194/500]	 Average training and validation loss: 3.1727E-04 4.8967E-04	Time: 0.20s
+Epoch [195/500]	 Average training and validation loss: 3.1687E-04 4.8978E-04	Time: 0.20s
+Epoch [196/500]	 Average training and validation loss: 3.1649E-04 4.8989E-04	Time: 0.20s
+Epoch [197/500]	 Average training and validation loss: 3.1610E-04 4.9000E-04	Time: 0.20s
+Epoch [198/500]	 Average training and validation loss: 3.1571E-04 4.9008E-04	Time: 0.20s
+Epoch [199/500]	 Average training and validation loss: 3.1532E-04 4.9021E-04	Time: 0.20s
+Epoch [200/500]	 Average training and validation loss: 3.1494E-04 4.9030E-04	Time: 0.20s
+Epoch [201/500]	 Average training and validation loss: 3.1456E-04 4.9043E-04	Time: 0.20s
+Epoch [202/500]	 Average training and validation loss: 3.1417E-04 4.9055E-04	Time: 0.20s
+Epoch [203/500]	 Average training and validation loss: 3.1379E-04 4.9067E-04	Time: 0.20s
+Epoch [204/500]	 Average training and validation loss: 3.1342E-04 4.9079E-04	Time: 0.20s
+Epoch [205/500]	 Average training and validation loss: 3.1303E-04 4.9091E-04	Time: 0.21s
+Epoch [206/500]	 Average training and validation loss: 3.1265E-04 4.9104E-04	Time: 0.20s
+Epoch [207/500]	 Average training and validation loss: 3.1228E-04 4.9117E-04	Time: 0.20s
+Epoch [208/500]	 Average training and validation loss: 3.1190E-04 4.9127E-04	Time: 0.20s
+Epoch [209/500]	 Average training and validation loss: 3.1152E-04 4.9140E-04	Time: 0.20s
+Epoch [210/500]	 Average training and validation loss: 3.1115E-04 4.9155E-04	Time: 0.20s
+Epoch [211/500]	 Average training and validation loss: 3.1078E-04 4.9167E-04	Time: 0.20s
+Epoch [212/500]	 Average training and validation loss: 3.1040E-04 4.9180E-04	Time: 0.20s
+Epoch [213/500]	 Average training and validation loss: 3.1003E-04 4.9192E-04	Time: 0.20s
+Epoch [214/500]	 Average training and validation loss: 3.0966E-04 4.9205E-04	Time: 0.20s
+Epoch [215/500]	 Average training and validation loss: 3.0928E-04 4.9219E-04	Time: 0.20s
+Epoch [216/500]	 Average training and validation loss: 3.0891E-04 4.9230E-04	Time: 0.20s
+Epoch [217/500]	 Average training and validation loss: 3.0854E-04 4.9243E-04	Time: 0.20s
+Epoch [218/500]	 Average training and validation loss: 3.0817E-04 4.9255E-04	Time: 0.20s
+Epoch [219/500]	 Average training and validation loss: 3.0780E-04 4.9269E-04	Time: 0.20s
+Epoch [220/500]	 Average training and validation loss: 3.0744E-04 4.9280E-04	Time: 0.20s
+Epoch [221/500]	 Average training and validation loss: 3.0707E-04 4.9296E-04	Time: 0.20s
+Epoch [222/500]	 Average training and validation loss: 3.0670E-04 4.9306E-04	Time: 0.20s
+Epoch [223/500]	 Average training and validation loss: 3.0634E-04 4.9318E-04	Time: 0.20s
+Epoch [224/500]	 Average training and validation loss: 3.0597E-04 4.9331E-04	Time: 0.20s
+Epoch [225/500]	 Average training and validation loss: 3.0561E-04 4.9345E-04	Time: 0.21s
+Epoch [226/500]	 Average training and validation loss: 3.0525E-04 4.9359E-04	Time: 0.20s
+Epoch [227/500]	 Average training and validation loss: 3.0488E-04 4.9370E-04	Time: 0.20s
+Epoch [228/500]	 Average training and validation loss: 3.0453E-04 4.9382E-04	Time: 0.20s
+Epoch [229/500]	 Average training and validation loss: 3.0416E-04 4.9395E-04	Time: 0.20s
+Epoch [230/500]	 Average training and validation loss: 3.0380E-04 4.9408E-04	Time: 0.20s
+Epoch [231/500]	 Average training and validation loss: 3.0344E-04 4.9419E-04	Time: 0.20s
+Epoch [232/500]	 Average training and validation loss: 3.0308E-04 4.9435E-04	Time: 0.20s
+Epoch [233/500]	 Average training and validation loss: 3.0273E-04 4.9445E-04	Time: 0.20s
+Epoch [234/500]	 Average training and validation loss: 3.0236E-04 4.9457E-04	Time: 0.20s
+Epoch [235/500]	 Average training and validation loss: 3.0201E-04 4.9469E-04	Time: 0.20s
+Epoch [236/500]	 Average training and validation loss: 3.0165E-04 4.9482E-04	Time: 0.20s
+Epoch [237/500]	 Average training and validation loss: 3.0129E-04 4.9495E-04	Time: 0.20s
+Epoch [238/500]	 Average training and validation loss: 3.0094E-04 4.9506E-04	Time: 0.20s
+Epoch [239/500]	 Average training and validation loss: 3.0059E-04 4.9519E-04	Time: 0.20s
+Epoch [240/500]	 Average training and validation loss: 3.0023E-04 4.9531E-04	Time: 0.20s
+Epoch [241/500]	 Average training and validation loss: 2.9988E-04 4.9544E-04	Time: 0.20s
+Epoch [242/500]	 Average training and validation loss: 2.9953E-04 4.9560E-04	Time: 0.20s
+Epoch [243/500]	 Average training and validation loss: 2.9917E-04 4.9569E-04	Time: 0.24s
+Epoch [244/500]	 Average training and validation loss: 2.9882E-04 4.9581E-04	Time: 0.20s
+Epoch [245/500]	 Average training and validation loss: 2.9847E-04 4.9597E-04	Time: 0.20s
+Epoch [246/500]	 Average training and validation loss: 2.9812E-04 4.9608E-04	Time: 0.20s
+Epoch [247/500]	 Average training and validation loss: 2.9777E-04 4.9621E-04	Time: 0.20s
+Epoch [248/500]	 Average training and validation loss: 2.9742E-04 4.9632E-04	Time: 0.20s
+Epoch [249/500]	 Average training and validation loss: 2.9707E-04 4.9646E-04	Time: 0.20s
+Epoch [250/500]	 Average training and validation loss: 2.9673E-04 4.9658E-04	Time: 0.20s
+Epoch [251/500]	 Average training and validation loss: 2.9638E-04 4.9670E-04	Time: 0.20s
+Epoch [252/500]	 Average training and validation loss: 2.9603E-04 4.9683E-04	Time: 0.20s
+Epoch [253/500]	 Average training and validation loss: 2.9569E-04 4.9696E-04	Time: 0.20s
+Epoch [254/500]	 Average training and validation loss: 2.9534E-04 4.9707E-04	Time: 0.20s
+Epoch [255/500]	 Average training and validation loss: 2.9500E-04 4.9723E-04	Time: 0.20s
+Epoch [256/500]	 Average training and validation loss: 2.9466E-04 4.9733E-04	Time: 0.20s
+Epoch [257/500]	 Average training and validation loss: 2.9431E-04 4.9748E-04	Time: 0.20s
+Epoch [258/500]	 Average training and validation loss: 2.9397E-04 4.9758E-04	Time: 0.20s
+Epoch [259/500]	 Average training and validation loss: 2.9363E-04 4.9772E-04	Time: 0.20s
+Epoch [260/500]	 Average training and validation loss: 2.9329E-04 4.9784E-04	Time: 0.20s
+Epoch [261/500]	 Average training and validation loss: 2.9294E-04 4.9796E-04	Time: 0.20s
+Epoch [262/500]	 Average training and validation loss: 2.9261E-04 4.9811E-04	Time: 0.20s
+Epoch [263/500]	 Average training and validation loss: 2.9227E-04 4.9823E-04	Time: 0.20s
+Epoch [264/500]	 Average training and validation loss: 2.9193E-04 4.9837E-04	Time: 0.21s
+Epoch [265/500]	 Average training and validation loss: 2.9159E-04 4.9851E-04	Time: 0.20s
+Epoch [266/500]	 Average training and validation loss: 2.9126E-04 4.9862E-04	Time: 0.20s
+Epoch [267/500]	 Average training and validation loss: 2.9092E-04 4.9877E-04	Time: 0.20s
+Epoch [268/500]	 Average training and validation loss: 2.9059E-04 4.9890E-04	Time: 0.20s
+Epoch [269/500]	 Average training and validation loss: 2.9025E-04 4.9904E-04	Time: 0.20s
+Epoch [270/500]	 Average training and validation loss: 2.8992E-04 4.9917E-04	Time: 0.20s
+Epoch [271/500]	 Average training and validation loss: 2.8959E-04 4.9931E-04	Time: 0.20s
+Epoch [272/500]	 Average training and validation loss: 2.8925E-04 4.9946E-04	Time: 0.20s
+Epoch [273/500]	 Average training and validation loss: 2.8893E-04 4.9956E-04	Time: 0.20s
+Epoch [274/500]	 Average training and validation loss: 2.8859E-04 4.9969E-04	Time: 0.20s
+Epoch [275/500]	 Average training and validation loss: 2.8826E-04 4.9986E-04	Time: 0.20s
+Epoch [276/500]	 Average training and validation loss: 2.8794E-04 4.9997E-04	Time: 0.20s
+Epoch [277/500]	 Average training and validation loss: 2.8760E-04 5.0013E-04	Time: 0.20s
+Epoch [278/500]	 Average training and validation loss: 2.8728E-04 5.0025E-04	Time: 0.20s
+Epoch [279/500]	 Average training and validation loss: 2.8694E-04 5.0039E-04	Time: 0.20s
+Epoch [280/500]	 Average training and validation loss: 2.8662E-04 5.0053E-04	Time: 0.20s
+Epoch [281/500]	 Average training and validation loss: 2.8630E-04 5.0065E-04	Time: 0.21s
+Epoch [282/500]	 Average training and validation loss: 2.8596E-04 5.0080E-04	Time: 0.20s
+Epoch [283/500]	 Average training and validation loss: 2.8564E-04 5.0094E-04	Time: 0.20s
+Epoch [284/500]	 Average training and validation loss: 2.8531E-04 5.0108E-04	Time: 0.21s
+Epoch [285/500]	 Average training and validation loss: 2.8498E-04 5.0120E-04	Time: 0.20s
+Epoch [286/500]	 Average training and validation loss: 2.8466E-04 5.0134E-04	Time: 0.20s
+Epoch [287/500]	 Average training and validation loss: 2.8433E-04 5.0150E-04	Time: 0.20s
+Epoch [288/500]	 Average training and validation loss: 2.8400E-04 5.0163E-04	Time: 0.20s
+Epoch [289/500]	 Average training and validation loss: 2.8368E-04 5.0178E-04	Time: 0.21s
+Epoch [290/500]	 Average training and validation loss: 2.8335E-04 5.0190E-04	Time: 0.20s
+Epoch [291/500]	 Average training and validation loss: 2.8303E-04 5.0207E-04	Time: 0.20s
+Epoch [292/500]	 Average training and validation loss: 2.8271E-04 5.0221E-04	Time: 0.20s
+Epoch [293/500]	 Average training and validation loss: 2.8238E-04 5.0236E-04	Time: 0.20s
+Epoch [294/500]	 Average training and validation loss: 2.8206E-04 5.0250E-04	Time: 0.20s
+Epoch [295/500]	 Average training and validation loss: 2.8174E-04 5.0265E-04	Time: 0.20s
+Epoch [296/500]	 Average training and validation loss: 2.8141E-04 5.0279E-04	Time: 0.20s
+Epoch [297/500]	 Average training and validation loss: 2.8109E-04 5.0294E-04	Time: 0.20s
+Epoch [298/500]	 Average training and validation loss: 2.8077E-04 5.0308E-04	Time: 0.21s
+Epoch [299/500]	 Average training and validation loss: 2.8045E-04 5.0322E-04	Time: 0.20s
+Epoch [300/500]	 Average training and validation loss: 2.8013E-04 5.0339E-04	Time: 0.20s
+Epoch [301/500]	 Average training and validation loss: 2.7981E-04 5.0354E-04	Time: 0.20s
+Epoch [302/500]	 Average training and validation loss: 2.7948E-04 5.0365E-04	Time: 0.20s
+Epoch [303/500]	 Average training and validation loss: 2.7916E-04 5.0381E-04	Time: 0.21s
+Epoch [304/500]	 Average training and validation loss: 2.7885E-04 5.0394E-04	Time: 0.21s
+Epoch [305/500]	 Average training and validation loss: 2.7853E-04 5.0409E-04	Time: 0.21s
+Epoch [306/500]	 Average training and validation loss: 2.7821E-04 5.0425E-04	Time: 0.20s
+Epoch [307/500]	 Average training and validation loss: 2.7789E-04 5.0439E-04	Time: 0.20s
+Epoch [308/500]	 Average training and validation loss: 2.7757E-04 5.0456E-04	Time: 0.21s
+Epoch [309/500]	 Average training and validation loss: 2.7726E-04 5.0469E-04	Time: 0.20s
+Epoch [310/500]	 Average training and validation loss: 2.7694E-04 5.0484E-04	Time: 0.20s
+Epoch [311/500]	 Average training and validation loss: 2.7663E-04 5.0497E-04	Time: 0.20s
+Epoch [312/500]	 Average training and validation loss: 2.7631E-04 5.0513E-04	Time: 0.20s
+Epoch [313/500]	 Average training and validation loss: 2.7599E-04 5.0531E-04	Time: 0.20s
+Epoch [314/500]	 Average training and validation loss: 2.7567E-04 5.0543E-04	Time: 0.20s
+Epoch [315/500]	 Average training and validation loss: 2.7537E-04 5.0558E-04	Time: 0.20s
+Epoch [316/500]	 Average training and validation loss: 2.7504E-04 5.0575E-04	Time: 0.20s
+Epoch [317/500]	 Average training and validation loss: 2.7473E-04 5.0588E-04	Time: 0.20s
+Epoch [318/500]	 Average training and validation loss: 2.7442E-04 5.0604E-04	Time: 0.21s
+Epoch [319/500]	 Average training and validation loss: 2.7409E-04 5.0618E-04	Time: 0.20s
+Epoch [320/500]	 Average training and validation loss: 2.7379E-04 5.0633E-04	Time: 0.20s
+Epoch [321/500]	 Average training and validation loss: 2.7347E-04 5.0648E-04	Time: 0.20s
+Epoch [322/500]	 Average training and validation loss: 2.7316E-04 5.0664E-04	Time: 0.21s
+Epoch [323/500]	 Average training and validation loss: 2.7284E-04 5.0679E-04	Time: 0.22s
+Epoch [324/500]	 Average training and validation loss: 2.7253E-04 5.0693E-04	Time: 0.21s
+Epoch [325/500]	 Average training and validation loss: 2.7222E-04 5.0707E-04	Time: 0.20s
+Epoch [326/500]	 Average training and validation loss: 2.7191E-04 5.0723E-04	Time: 0.20s
+Epoch [327/500]	 Average training and validation loss: 2.7160E-04 5.0740E-04	Time: 0.20s
+Epoch [328/500]	 Average training and validation loss: 2.7129E-04 5.0752E-04	Time: 0.20s
+Epoch [329/500]	 Average training and validation loss: 2.7098E-04 5.0768E-04	Time: 0.20s
+Epoch [330/500]	 Average training and validation loss: 2.7066E-04 5.0785E-04	Time: 0.20s
+Epoch [331/500]	 Average training and validation loss: 2.7036E-04 5.0799E-04	Time: 0.20s
+Epoch [332/500]	 Average training and validation loss: 2.7005E-04 5.0815E-04	Time: 0.20s
+Epoch [333/500]	 Average training and validation loss: 2.6974E-04 5.0829E-04	Time: 0.20s
+Epoch [334/500]	 Average training and validation loss: 2.6942E-04 5.0846E-04	Time: 0.20s
+Epoch [335/500]	 Average training and validation loss: 2.6911E-04 5.0863E-04	Time: 0.20s
+Epoch [336/500]	 Average training and validation loss: 2.6881E-04 5.0875E-04	Time: 0.20s
+Epoch [337/500]	 Average training and validation loss: 2.6849E-04 5.0890E-04	Time: 0.20s
+Epoch [338/500]	 Average training and validation loss: 2.6819E-04 5.0908E-04	Time: 0.21s
+Epoch [339/500]	 Average training and validation loss: 2.6788E-04 5.0924E-04	Time: 0.20s
+Epoch [340/500]	 Average training and validation loss: 2.6758E-04 5.0936E-04	Time: 0.20s
+Epoch [341/500]	 Average training and validation loss: 2.6727E-04 5.0956E-04	Time: 0.20s
+Epoch [342/500]	 Average training and validation loss: 2.6696E-04 5.0968E-04	Time: 0.20s
+Epoch [343/500]	 Average training and validation loss: 2.6665E-04 5.0985E-04	Time: 0.20s
+Epoch [344/500]	 Average training and validation loss: 2.6635E-04 5.1001E-04	Time: 0.20s
+Epoch [345/500]	 Average training and validation loss: 2.6604E-04 5.1017E-04	Time: 0.20s
+Epoch [346/500]	 Average training and validation loss: 2.6574E-04 5.1036E-04	Time: 0.20s
+Epoch [347/500]	 Average training and validation loss: 2.6543E-04 5.1047E-04	Time: 0.20s
+Epoch [348/500]	 Average training and validation loss: 2.6513E-04 5.1066E-04	Time: 0.20s
+Epoch [349/500]	 Average training and validation loss: 2.6482E-04 5.1081E-04	Time: 0.20s
+Epoch [350/500]	 Average training and validation loss: 2.6452E-04 5.1097E-04	Time: 0.20s
+Epoch [351/500]	 Average training and validation loss: 2.6422E-04 5.1111E-04	Time: 0.20s
+Epoch [352/500]	 Average training and validation loss: 2.6391E-04 5.1130E-04	Time: 0.20s
+Epoch [353/500]	 Average training and validation loss: 2.6361E-04 5.1145E-04	Time: 0.20s
+Epoch [354/500]	 Average training and validation loss: 2.6331E-04 5.1158E-04	Time: 0.20s
+Epoch [355/500]	 Average training and validation loss: 2.6300E-04 5.1179E-04	Time: 0.20s
+Epoch [356/500]	 Average training and validation loss: 2.6270E-04 5.1192E-04	Time: 0.20s
+Epoch [357/500]	 Average training and validation loss: 2.6240E-04 5.1208E-04	Time: 0.20s
+Epoch [358/500]	 Average training and validation loss: 2.6210E-04 5.1223E-04	Time: 0.20s
+Epoch [359/500]	 Average training and validation loss: 2.6179E-04 5.1241E-04	Time: 0.20s
+Epoch [360/500]	 Average training and validation loss: 2.6150E-04 5.1256E-04	Time: 0.20s
+Epoch [361/500]	 Average training and validation loss: 2.6120E-04 5.1272E-04	Time: 0.20s
+Epoch [362/500]	 Average training and validation loss: 2.6090E-04 5.1292E-04	Time: 0.21s
+Epoch [363/500]	 Average training and validation loss: 2.6059E-04 5.1306E-04	Time: 0.21s
+Epoch [364/500]	 Average training and validation loss: 2.6030E-04 5.1321E-04	Time: 0.20s
+Epoch [365/500]	 Average training and validation loss: 2.6000E-04 5.1339E-04	Time: 0.21s
+Epoch [366/500]	 Average training and validation loss: 2.5970E-04 5.1358E-04	Time: 0.21s
+Epoch [367/500]	 Average training and validation loss: 2.5940E-04 5.1371E-04	Time: 0.20s
+Epoch [368/500]	 Average training and validation loss: 2.5911E-04 5.1388E-04	Time: 0.21s
+Epoch [369/500]	 Average training and validation loss: 2.5881E-04 5.1405E-04	Time: 0.21s
+Epoch [370/500]	 Average training and validation loss: 2.5851E-04 5.1421E-04	Time: 0.20s
+Epoch [371/500]	 Average training and validation loss: 2.5821E-04 5.1436E-04	Time: 0.20s
+Epoch [372/500]	 Average training and validation loss: 2.5792E-04 5.1452E-04	Time: 0.20s
+Epoch [373/500]	 Average training and validation loss: 2.5762E-04 5.1467E-04	Time: 0.20s
+Epoch [374/500]	 Average training and validation loss: 2.5732E-04 5.1488E-04	Time: 0.20s
+Epoch [375/500]	 Average training and validation loss: 2.5703E-04 5.1503E-04	Time: 0.20s
+Epoch [376/500]	 Average training and validation loss: 2.5674E-04 5.1518E-04	Time: 0.20s
+Epoch [377/500]	 Average training and validation loss: 2.5643E-04 5.1537E-04	Time: 0.20s
+Epoch [378/500]	 Average training and validation loss: 2.5615E-04 5.1556E-04	Time: 0.20s
+Epoch [379/500]	 Average training and validation loss: 2.5585E-04 5.1567E-04	Time: 0.20s
+Epoch [380/500]	 Average training and validation loss: 2.5556E-04 5.1588E-04	Time: 0.20s
+Epoch [381/500]	 Average training and validation loss: 2.5526E-04 5.1602E-04	Time: 0.20s
+Epoch [382/500]	 Average training and validation loss: 2.5497E-04 5.1619E-04	Time: 0.21s
+Epoch [383/500]	 Average training and validation loss: 2.5468E-04 5.1636E-04	Time: 0.20s
+Epoch [384/500]	 Average training and validation loss: 2.5439E-04 5.1653E-04	Time: 0.20s
+Epoch [385/500]	 Average training and validation loss: 2.5410E-04 5.1665E-04	Time: 0.20s
+Epoch [386/500]	 Average training and validation loss: 2.5380E-04 5.1685E-04	Time: 0.20s
+Epoch [387/500]	 Average training and validation loss: 2.5351E-04 5.1702E-04	Time: 0.20s
+Epoch [388/500]	 Average training and validation loss: 2.5323E-04 5.1718E-04	Time: 0.20s
+Epoch [389/500]	 Average training and validation loss: 2.5293E-04 5.1736E-04	Time: 0.20s
+Epoch [390/500]	 Average training and validation loss: 2.5264E-04 5.1752E-04	Time: 0.20s
+Epoch [391/500]	 Average training and validation loss: 2.5235E-04 5.1768E-04	Time: 0.20s
+Epoch [392/500]	 Average training and validation loss: 2.5207E-04 5.1788E-04	Time: 0.20s
+Epoch [393/500]	 Average training and validation loss: 2.5177E-04 5.1801E-04	Time: 0.20s
+Epoch [394/500]	 Average training and validation loss: 2.5149E-04 5.1821E-04	Time: 0.20s
+Epoch [395/500]	 Average training and validation loss: 2.5120E-04 5.1833E-04	Time: 0.20s
+Epoch [396/500]	 Average training and validation loss: 2.5091E-04 5.1855E-04	Time: 0.20s
+Epoch [397/500]	 Average training and validation loss: 2.5063E-04 5.1870E-04	Time: 0.21s
+Epoch [398/500]	 Average training and validation loss: 2.5034E-04 5.1885E-04	Time: 0.20s
+Epoch [399/500]	 Average training and validation loss: 2.5006E-04 5.1903E-04	Time: 0.20s
+Epoch [400/500]	 Average training and validation loss: 2.4977E-04 5.1920E-04	Time: 0.20s
+Epoch [401/500]	 Average training and validation loss: 2.4948E-04 5.1933E-04	Time: 0.20s
+Epoch [402/500]	 Average training and validation loss: 2.4920E-04 5.1951E-04	Time: 0.20s
+Epoch [403/500]	 Average training and validation loss: 2.4891E-04 5.1968E-04	Time: 0.20s
+Epoch [404/500]	 Average training and validation loss: 2.4862E-04 5.1983E-04	Time: 0.20s
+Epoch [405/500]	 Average training and validation loss: 2.4834E-04 5.1998E-04	Time: 0.20s
+Epoch [406/500]	 Average training and validation loss: 2.4806E-04 5.2016E-04	Time: 0.20s
+Epoch [407/500]	 Average training and validation loss: 2.4777E-04 5.2032E-04	Time: 0.20s
+Epoch [408/500]	 Average training and validation loss: 2.4749E-04 5.2051E-04	Time: 0.20s
+Epoch [409/500]	 Average training and validation loss: 2.4721E-04 5.2068E-04	Time: 0.20s
+Epoch [410/500]	 Average training and validation loss: 2.4692E-04 5.2077E-04	Time: 0.20s
+Epoch [411/500]	 Average training and validation loss: 2.4664E-04 5.2100E-04	Time: 0.20s
+Epoch [412/500]	 Average training and validation loss: 2.4636E-04 5.2117E-04	Time: 0.20s
+Epoch [413/500]	 Average training and validation loss: 2.4607E-04 5.2133E-04	Time: 0.20s
+Epoch [414/500]	 Average training and validation loss: 2.4579E-04 5.2148E-04	Time: 0.20s
+Epoch [415/500]	 Average training and validation loss: 2.4551E-04 5.2168E-04	Time: 0.20s
+Epoch [416/500]	 Average training and validation loss: 2.4523E-04 5.2186E-04	Time: 0.21s
+Epoch [417/500]	 Average training and validation loss: 2.4495E-04 5.2202E-04	Time: 0.21s
+Epoch [418/500]	 Average training and validation loss: 2.4467E-04 5.2218E-04	Time: 0.20s
+Epoch [419/500]	 Average training and validation loss: 2.4439E-04 5.2234E-04	Time: 0.20s
+Epoch [420/500]	 Average training and validation loss: 2.4411E-04 5.2249E-04	Time: 0.20s
+Epoch [421/500]	 Average training and validation loss: 2.4383E-04 5.2270E-04	Time: 0.20s
+Epoch [422/500]	 Average training and validation loss: 2.4355E-04 5.2286E-04	Time: 0.20s
+Epoch [423/500]	 Average training and validation loss: 2.4327E-04 5.2304E-04	Time: 0.20s
+Epoch [424/500]	 Average training and validation loss: 2.4299E-04 5.2320E-04	Time: 0.20s
+Epoch [425/500]	 Average training and validation loss: 2.4271E-04 5.2339E-04	Time: 0.20s
+Epoch [426/500]	 Average training and validation loss: 2.4243E-04 5.2352E-04	Time: 0.20s
+Epoch [427/500]	 Average training and validation loss: 2.4215E-04 5.2374E-04	Time: 0.20s
+Epoch [428/500]	 Average training and validation loss: 2.4187E-04 5.2386E-04	Time: 0.20s
+Epoch [429/500]	 Average training and validation loss: 2.4160E-04 5.2407E-04	Time: 0.20s
+Epoch [430/500]	 Average training and validation loss: 2.4132E-04 5.2421E-04	Time: 0.20s
+Epoch [431/500]	 Average training and validation loss: 2.4105E-04 5.2439E-04	Time: 0.20s
+Epoch [432/500]	 Average training and validation loss: 2.4076E-04 5.2455E-04	Time: 0.20s
+Epoch [433/500]	 Average training and validation loss: 2.4049E-04 5.2474E-04	Time: 0.20s
+Epoch [434/500]	 Average training and validation loss: 2.4022E-04 5.2489E-04	Time: 0.20s
+Epoch [435/500]	 Average training and validation loss: 2.3993E-04 5.2505E-04	Time: 0.20s
+Epoch [436/500]	 Average training and validation loss: 2.3966E-04 5.2521E-04	Time: 0.20s
+Epoch [437/500]	 Average training and validation loss: 2.3938E-04 5.2541E-04	Time: 0.21s
+Epoch [438/500]	 Average training and validation loss: 2.3911E-04 5.2556E-04	Time: 0.20s
+Epoch [439/500]	 Average training and validation loss: 2.3883E-04 5.2574E-04	Time: 0.20s
+Epoch [440/500]	 Average training and validation loss: 2.3855E-04 5.2588E-04	Time: 0.21s
+Epoch [441/500]	 Average training and validation loss: 2.3828E-04 5.2608E-04	Time: 0.21s
+Epoch [442/500]	 Average training and validation loss: 2.3801E-04 5.2622E-04	Time: 0.21s
+Epoch [443/500]	 Average training and validation loss: 2.3773E-04 5.2643E-04	Time: 0.20s
+Epoch [444/500]	 Average training and validation loss: 2.3746E-04 5.2658E-04	Time: 0.20s
+Epoch [445/500]	 Average training and validation loss: 2.3718E-04 5.2679E-04	Time: 0.20s
+Epoch [446/500]	 Average training and validation loss: 2.3691E-04 5.2694E-04	Time: 0.21s
+Epoch [447/500]	 Average training and validation loss: 2.3664E-04 5.2711E-04	Time: 0.21s
+Epoch [448/500]	 Average training and validation loss: 2.3637E-04 5.2726E-04	Time: 0.20s
+Epoch [449/500]	 Average training and validation loss: 2.3610E-04 5.2745E-04	Time: 0.20s
+Epoch [450/500]	 Average training and validation loss: 2.3582E-04 5.2760E-04	Time: 0.20s
+Epoch [451/500]	 Average training and validation loss: 2.3555E-04 5.2781E-04	Time: 0.20s
+Epoch [452/500]	 Average training and validation loss: 2.3528E-04 5.2798E-04	Time: 0.20s
+Epoch [453/500]	 Average training and validation loss: 2.3501E-04 5.2814E-04	Time: 0.20s
+Epoch [454/500]	 Average training and validation loss: 2.3474E-04 5.2831E-04	Time: 0.20s
+Epoch [455/500]	 Average training and validation loss: 2.3447E-04 5.2848E-04	Time: 0.20s
+Epoch [456/500]	 Average training and validation loss: 2.3420E-04 5.2862E-04	Time: 0.21s
+Epoch [457/500]	 Average training and validation loss: 2.3393E-04 5.2883E-04	Time: 0.20s
+Epoch [458/500]	 Average training and validation loss: 2.3366E-04 5.2899E-04	Time: 0.20s
+Epoch [459/500]	 Average training and validation loss: 2.3340E-04 5.2915E-04	Time: 0.21s
+Epoch [460/500]	 Average training and validation loss: 2.3312E-04 5.2933E-04	Time: 0.20s
+Epoch [461/500]	 Average training and validation loss: 2.3286E-04 5.2950E-04	Time: 0.21s
+Epoch [462/500]	 Average training and validation loss: 2.3259E-04 5.2967E-04	Time: 0.20s
+Epoch [463/500]	 Average training and validation loss: 2.3232E-04 5.2984E-04	Time: 0.20s
+Epoch [464/500]	 Average training and validation loss: 2.3206E-04 5.3001E-04	Time: 0.20s
+Epoch [465/500]	 Average training and validation loss: 2.3178E-04 5.3020E-04	Time: 0.20s
+Epoch [466/500]	 Average training and validation loss: 2.3152E-04 5.3036E-04	Time: 0.20s
+Epoch [467/500]	 Average training and validation loss: 2.3125E-04 5.3056E-04	Time: 0.20s
+Epoch [468/500]	 Average training and validation loss: 2.3098E-04 5.3074E-04	Time: 0.20s
+Epoch [469/500]	 Average training and validation loss: 2.3072E-04 5.3088E-04	Time: 0.20s
+Epoch [470/500]	 Average training and validation loss: 2.3046E-04 5.3106E-04	Time: 0.21s
+Epoch [471/500]	 Average training and validation loss: 2.3018E-04 5.3123E-04	Time: 0.20s
+Epoch [472/500]	 Average training and validation loss: 2.2992E-04 5.3140E-04	Time: 0.20s
+Epoch [473/500]	 Average training and validation loss: 2.2966E-04 5.3154E-04	Time: 0.20s
+Epoch [474/500]	 Average training and validation loss: 2.2939E-04 5.3177E-04	Time: 0.20s
+Epoch [475/500]	 Average training and validation loss: 2.2912E-04 5.3191E-04	Time: 0.20s
+Epoch [476/500]	 Average training and validation loss: 2.2886E-04 5.3209E-04	Time: 0.20s
+Epoch [477/500]	 Average training and validation loss: 2.2860E-04 5.3225E-04	Time: 0.20s
+Epoch [478/500]	 Average training and validation loss: 2.2833E-04 5.3245E-04	Time: 0.20s
+Epoch [479/500]	 Average training and validation loss: 2.2807E-04 5.3265E-04	Time: 0.20s
+Epoch [480/500]	 Average training and validation loss: 2.2781E-04 5.3279E-04	Time: 0.21s
+Epoch [481/500]	 Average training and validation loss: 2.2754E-04 5.3301E-04	Time: 0.20s
+Epoch [482/500]	 Average training and validation loss: 2.2728E-04 5.3313E-04	Time: 0.20s
+Epoch [483/500]	 Average training and validation loss: 2.2702E-04 5.3337E-04	Time: 0.20s
+Epoch [484/500]	 Average training and validation loss: 2.2676E-04 5.3352E-04	Time: 0.20s
+Epoch [485/500]	 Average training and validation loss: 2.2650E-04 5.3375E-04	Time: 0.20s
+Epoch [486/500]	 Average training and validation loss: 2.2624E-04 5.3390E-04	Time: 0.20s
+Epoch [487/500]	 Average training and validation loss: 2.2598E-04 5.3408E-04	Time: 0.20s
+Epoch [488/500]	 Average training and validation loss: 2.2571E-04 5.3431E-04	Time: 0.20s
+Epoch [489/500]	 Average training and validation loss: 2.2546E-04 5.3448E-04	Time: 0.20s
+Epoch [490/500]	 Average training and validation loss: 2.2520E-04 5.3467E-04	Time: 0.20s
+Epoch [491/500]	 Average training and validation loss: 2.2494E-04 5.3485E-04	Time: 0.20s
+Epoch [492/500]	 Average training and validation loss: 2.2468E-04 5.3506E-04	Time: 0.20s
+Epoch [493/500]	 Average training and validation loss: 2.2442E-04 5.3525E-04	Time: 0.20s
+Epoch [494/500]	 Average training and validation loss: 2.2417E-04 5.3544E-04	Time: 0.20s
+Epoch [495/500]	 Average training and validation loss: 2.2390E-04 5.3564E-04	Time: 0.20s
+Epoch [496/500]	 Average training and validation loss: 2.2365E-04 5.3580E-04	Time: 0.20s
+Epoch [497/500]	 Average training and validation loss: 2.2339E-04 5.3600E-04	Time: 0.20s
+Epoch [498/500]	 Average training and validation loss: 2.2313E-04 5.3618E-04	Time: 0.20s
+Epoch [499/500]	 Average training and validation loss: 2.2287E-04 5.3636E-04	Time: 0.21s
+Epoch [500/500]	 Average training and validation loss: 2.2262E-04 5.3658E-04	Time: 0.20s
+Training Time 104.6326
+Test Loss 0.0005
+
+Training best epoch: 500	Training minimum loss: 2.226E-04
+Validate best epoch: 54	Validate minimum loss: 4.800E-04
